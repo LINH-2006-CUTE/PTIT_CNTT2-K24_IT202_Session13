@@ -1,0 +1,7 @@
+CREATE TRIGGER trigger_name
+{BEFORE | AFTER} {INSERT | UPDATE | DELETE}
+ON table_name
+FOR EACH ROW
+BEGIN
+    -- Nội dung đoạn mã SQL xử lý
+END;
